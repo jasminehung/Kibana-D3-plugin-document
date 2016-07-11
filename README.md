@@ -4,7 +4,7 @@
 
 #####Background knowledge:
   * JavaScript development (npm modules; ..)
-  * AngularJS (MVC架構)
+  * AngularJS (MVC Framework)
   * RequireJS
   
 #####Every plugin is a npm module, so at least need: 
@@ -27,9 +27,9 @@
 │   └── lib  
 │        └── agg_response.js  
 
-### Data Passing
-* esResponse: holds the Elasticsearch response for your visualization. 
-* vis: holds information about your visualization and the settings the user chose.
+### Data Passing 
+* esResponse: Holds the Elasticsearch response for your visualization. 
+* vis: Holds information about your visualization and the settings the user chose.
 
 ### Resources
 [Github/JuanCarniglia](https://github.com/JuanCarniglia/kbn_boxplot_violin_vis/tree/master/public)
@@ -41,6 +41,8 @@
 [{{more}} Kibana4]  (http://www.slideshare.net/chenryn/more-kibana4)
 
 [Data visualization with Elasticsearch aggregations and D3](https://www.elastic.co/blog/data-visualization-elasticsearch-aggregations)
+
+[Creating Custom Kibana Visualizations: A How-To Guide] (http://logz.io/blog/kibana-visualizations/)
 
 [Kibana4 可视化插件开发](https://github.com/chenryn/ELKstack-guide-cn/blob/master/kibana/v4/plugin/vis-develop.md)
 
