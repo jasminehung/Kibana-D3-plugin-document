@@ -25,7 +25,7 @@
 │   ├── kbn_plugin_controller.js  
 │   ├── kbn_plugin_params.js  
 │   └── lib  
-│        └── agg_response.js  
+│      　　 └── agg_response.js  
 
 ### Data Passing 
 * esResponse: Holds the Elasticsearch response for your visualization. 
