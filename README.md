@@ -27,9 +27,15 @@
 │   └── lib  
 │      　　 └── agg_response.js  
 
+(Could also combine agg_response.js into kbn_plugin_controller.js)
+
 ### Data Passing 
 * esResponse: Holds the Elasticsearch response for your visualization. 
 * vis: Holds information about your visualization and the settings the user chose.
+
+Access data from metrix:  ```$scope.vis.aggs.bySchemaName['your_metrix_name'][0];```
+
+Access data from buckets: ```$scope.vis.aggs.bySchemaName['your_bucket_name'][0].id;```
 
 ### Resources
 [Github/JuanCarniglia](https://github.com/JuanCarniglia/kbn_boxplot_violin_vis/tree/master/public)
