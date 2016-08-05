@@ -37,6 +37,11 @@ Access data from metrix:  ```$scope.vis.aggs.bySchemaName['your_metrix_name'][0]
 
 Access data from buckets: ```$scope.vis.aggs.bySchemaName['your_bucket_name'][0].id;```
 
+### Set Schema 
+* Metrics aggregations(aggFilter): avg, cardinality, count, max, median, min, percentile_ranks, percentiles, std_dev, sum
+
+* Bucket aggregations(aggFilter): date_histogram, date_range, filters, geohash_grid, histogram, ip_range, range, significant_terms, terms
+
 ### Resources
 [Github/JuanCarniglia](https://github.com/JuanCarniglia/kbn_boxplot_violin_vis/tree/master/public)
 
