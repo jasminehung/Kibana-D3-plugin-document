@@ -58,4 +58,5 @@ Access data from buckets: ```$scope.vis.aggs.bySchemaName['your_bucket_name'][0]
 [Kibana4 可视化插件开发](https://github.com/chenryn/ELKstack-guide-cn/blob/master/kibana/v4/plugin/vis-develop.md)
 
 ### Logstash notes
-csv file should be edit at least once so you can import into logstash (因windows權限問題) 
+* csv file should be edit at least once so you can import into logstash (因windows權限問題) 
+* csv file 用編輯器先存成utf8再匯入logstash避免中文出現亂碼
