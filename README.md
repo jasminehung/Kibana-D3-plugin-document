@@ -49,6 +49,8 @@ Access data from buckets: ```$scope.vis.aggs.bySchemaName['your_bucket_name'][0]
 
 [Kibana Plugin Yeoman Generator] (https://www.npmjs.com/package/generator-kibana-plugin)
 
+[How to Build Your Own Kibana Plugins(slides)](https://www.elastic.co/elasticon/conf/2016/sf/how-to-build-your-own-kibana-plugins)
+
 [{{more}} Kibana4]  (http://www.slideshare.net/chenryn/more-kibana4)
 
 [Data visualization with Elasticsearch aggregations and D3](https://www.elastic.co/blog/data-visualization-elasticsearch-aggregations)
